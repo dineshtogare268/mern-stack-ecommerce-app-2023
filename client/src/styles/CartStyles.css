@@ -1,0 +1,49 @@
+.cart-page {
+    margin-top: 4rem;
+    background-color: #F5F5F5;
+  }
+  
+  .cart-page h1 {
+    padding: 1rem !important;
+    font-family: "roboto", sans-serif;
+    font-weight: normal;
+    background-color: rgb(183, 255, 208) !important;
+  }
+  .cart-page h1 > p {
+    font-size: 1.2rem;
+    margin-top: 0.7rem;
+  }
+  
+  .cart-page .card {
+    margin-top: 1rem;
+    padding: 0.7rem !important;
+    height: 10rem !important;
+    margin-bottom: 0.3rem !important;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color:#f8f8f7;
+  }
+
+  .cart-page .btn-remove{
+    background-color: #BF360C;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 1rem;
+    color: white;
+
+  }
+  
+  .cart-page .btn-remove:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 1s;
+    color: white;
+  }
+
+  .cart-page .cart-remove-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .cart-page .cart-summary {
+    text-align: center;
+    /* margin-top: -140px !important; */
+  }

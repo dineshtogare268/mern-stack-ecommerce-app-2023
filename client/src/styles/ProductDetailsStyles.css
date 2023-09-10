@@ -1,0 +1,69 @@
+.product-details {
+    margin-top: 7rem !important;
+    margin-left: 7%;
+  }
+  
+  .product-details-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.7rem;
+background-color: #fafafa;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  }
+  
+  .product-details-info h6 {
+    margin-bottom: 1.2rem !important;
+    font-size: 1.2rem;
+    
+  }
+  
+  .similar-products .card {
+    background-color:#fafafa;
+    width: 18rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+  }
+  
+  .similar-products .card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .similar-products .card-price {
+    color: green;
+    font-weight: bold;
+  }
+  .similar-products button {
+    border-radius: 0;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #130f40;
+    color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 0.5s;
+  }
+
+  .similar-products button:hover {
+
+box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  }
+  
+  .similar-products .card-text {
+    color: rgb(90, 89, 89);
+  }
+  
+  .similar-products .card img:hover {
+    transform: scale(0.9);
+    
+  }
+  
+  .similar-products .card-img-top {
+    height: 15rem !important;
+    padding: 0.3rem;
+    
+  }

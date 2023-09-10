@@ -1,0 +1,100 @@
+.banner-img {
+    margin-top: 5rem;
+    width: 100%;
+    height: 25rem;
+    /* background-color: rgb(224, 183, 94) */
+    background-image: linear-gradient(0deg, #436f77 0%, #115ba0 100%);
+  }
+  
+  .home-page h1 {
+    color: black;
+    font-family: "Playfair Display", serif;
+  }
+  
+  .home-page {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .home-page .card {
+    background-color: rgba(247, 246, 238, 0.346);
+    /* background-image: linear-gradient(0deg, #eeeeee 0%, #e9d5c5 100%); */
+    width: 21rem;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  }
+  .home-page .card-name-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .home-page .card-price {
+    color: green;
+    font-weight: bold;
+  }
+  .home-page button {
+    border-radius: 0;
+    width: 100%;
+    border-top-left-radius: 0.313rem;
+    border-bottom-right-radius: 0.313rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: 1px solid black;
+    box-shadow: rgb(38, 57, 77) 0px 1.25rem 1.875 -0.625rem;
+  }
+
+  .home-page button:hover {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transition: 0.3s;
+  }
+  
+  .home-page .card-text {
+    color: rgb(15, 1, 34);
+  }
+  
+  .home-page .card img:hover {
+    transform: scale(0.9);
+  }
+  
+  .home-page .card-img-top {
+    height: 17.75rem !important;
+    padding: 1rem;
+  }
+
+  /* ================== filters ============== */
+  .filters h4 {
+    margin-top:  1rem ;
+    color: rgb(2, 104, 40) !important;
+    border-bottom: 1px solid rgba(5, 1, 39, 0.337);
+    font-weight: 700;
+  }
+  
+  .ant-checkbox-wrapper:first-of-type {
+    margin-left: 0.5rem;
+    
+  }
+  
+  .ant-checkbox-wrapper {
+    margin: 0.2rem;
+  }
+  .ant-radio-wrapper {
+    margin-bottom: 0.3rem !important;
+    margin-left: 0.7rem;
+  }
+  
+  .filters button {
+    background-color: #00897b;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    margin: 1rem;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 1px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 1rem;
+    padding: 0.5rem;
+  }
+  
+  .loadmore {
+    color: green;
+    font-weight: bold;
+    font-size: 1.25rem !important;
+   
+  }
